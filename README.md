@@ -1,3 +1,61 @@
+# CSV Filter
+
+This is application filters a CSV file based on a set of user defined criteria. The application is built using React and Typescript.
+The tool gives you options to select columns you want to filter on, the type of filter you want to apply and the value you want to filter on. The tool will then filter the CSV file and return the results in a new CSV file.
+
+Options can be saved and loaded from the browser's local storage. This allows you to quickly load a set of filters you have previously used and apply them to a new CSV file.
+
+## Usage
+
+This application is available for use without installation via GitHub pages. This application can be found here:
+
+https://gcoulby.github.io/csv-filter/
+
+## Instructions
+
+### Loading a CSV file
+
+Drag and drop a CSV file onto the dropzone. The CSV file will be loaded into the application and the columns will be displayed in the column selector.
+
+### Selecting columns
+
+Select the columns you want to filter on by clicking on the column name in the column selector. The column will be highlighted when selected. You can use CTRL and SHIFT to select multiple columns.
+
+### Selecting a filter column
+
+Select the column you want to filter using the filter column dropdown.
+
+### Selecting values to filter on
+
+Select the values you want to filter on using the filter values dropdown. You can use CTRL and SHIFT to select multiple values. The values in the dropdown are populated from the values in the selected filter column.
+
+### Saving a profile
+
+Type a name for the profile in the profile name input box and click the save button. The profile will be saved to the browser's local storage.
+
+### Loading a profile
+
+There is a dropdown at the top of the application that lists all the profiles that have been saved to the browser's local storage. Select a profile from the dropdown to load it.
+
+### Saving a CSV file
+
+Click the Export CSV File button to save the filtered CSV file to your computer.
+
+---
+
+# Installation
+
+To install this application run the following command to clone the repository and change the active directory to the newly cloned repo.
+
+```bash
+$ git clone https://github.com/gcoulby/csv-filter.git
+$ cd csv-filter
+```
+
+Then follow the getting started instructions below.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
